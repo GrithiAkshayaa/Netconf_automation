@@ -1,0 +1,20 @@
+package com.example.nbi.service;
+
+import com.example.nbi.model.FaultInput;
+import com.example.nbi.model.FaultNbi;
+import org.springframework.stereotype.Service;
+
+@Service
+public class FaultService {
+
+    public FaultNbi convertToNbi(FaultInput faultInput) {
+        return new FaultNbi(
+                faultInput.getId(),               // id → alarmId
+                faultInput.getResource(),         // resource → managedObject
+                faultInput.getText(),             // text → probableCause
+                faultInput.getTimeCreated(),      // time-created → eventTime
+                faultInput.getSeverity(),         // severity → perceivedSeverity
+                faultInput.getTypeId()            // type-id → eventType
+        );
+    }
+}
