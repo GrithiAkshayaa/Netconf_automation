@@ -1,0 +1,36 @@
+{
+    "components": [
+        {
+            "name": "component1",
+            "config": {
+                "name": "component1"
+            },
+            "properties": [
+                {
+                    "name": "property1",
+                    "config": {
+                        "name": "property1",
+                        "value": "100"
+                    }
+                }
+            ],
+            "subcomponents": []
+        },
+        {
+            "name": "component2",
+            "config": {
+                "name": "component2"
+            },
+            "properties": [
+                {
+                    "name": "property2",
+                    "config": {
+                        "name": "property2",
+                        "value": "200"
+                    }
+                }
+            ],
+            "subcomponents": []
+        }
+    ]
+}
