@@ -1,0 +1,43 @@
+package com.example.nbi.model;
+
+import java.time.LocalDateTime;
+
+public class FaultNbi {
+    private String alarmId;
+    private String managedObject;
+    private String probableCause;
+    private LocalDateTime eventTime;
+    private String perceivedSeverity;
+    private String eventType;
+
+    // Constructors
+    public FaultNbi() {}
+
+    public FaultNbi(String alarmId, String managedObject, String probableCause, LocalDateTime eventTime, String perceivedSeverity, String eventType) {
+        this.alarmId = alarmId;
+        this.managedObject = managedObject;
+        this.probableCause = probableCause;
+        this.eventTime = eventTime;
+        this.perceivedSeverity = perceivedSeverity;
+        this.eventType = eventType;
+    }
+
+    // Getters and Setters
+    public String getAlarmId() { return alarmId; }
+    public void setAlarmId(String alarmId) { this.alarmId = alarmId; }
+
+    public String getManagedObject() { return managedObject; }
+    public void setManagedObject(String managedObject) { this.managedObject = managedObject; }
+
+    public String getProbableCause() { return probableCause; }
+    public void setProbableCause(String probableCause) { this.probableCause = probableCause; }
+
+    public LocalDateTime getEventTime() { return eventTime; }
+    public void setEventTime(LocalDateTime eventTime) { this.eventTime = eventTime; }
+
+    public String getPerceivedSeverity() { return perceivedSeverity; }
+    public void setPerceivedSeverity(String perceivedSeverity) { this.perceivedSeverity = perceivedSeverity; }
+
+    public String getEventType() { return eventType; }
+    public void setEventType(String eventType) { this.eventType = eventType; }
+}
