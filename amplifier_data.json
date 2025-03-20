@@ -1,0 +1,18 @@
+{
+    "components": {
+        "component": [
+            {
+                "name": "Amplifier1",
+                "config": {
+                    "name": "Amplifier1"
+                }
+            },
+            {
+                "name": "Amplifier2",
+                "config": {
+                    "name": "Amplifier2"
+                }
+            }
+        ]
+    }
+}
