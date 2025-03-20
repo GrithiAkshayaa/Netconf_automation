@@ -1,0 +1,22 @@
+package com.example.nbi.controller;
+
+import com.example.nbi.model.FaultInput;
+import com.example.nbi.model.FaultNbi;
+import com.example.nbi.service.FaultService;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/nbi/faults")
+public class FaultController {
+
+    private final FaultService faultService;
+
+    public FaultController(FaultService faultService) {
+        this.faultService = faultService;
+    }
+
+    @PostMapping("/convert")
+    public FaultNbi convertFaultToNbi(@RequestBody FaultInput faultInput) {
+        return faultService.convertToNbi(faultInput);
+    }
+}
