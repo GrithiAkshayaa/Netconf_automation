@@ -1,0 +1,14 @@
+<components xmlns="http://openconfig.net/yang/platform">
+    <component>
+        <name>SLOT1</name>
+        <config>
+            <enabled>true</enabled>
+        </config>
+    </component>
+    <component>
+        <name>SLOT2</name>
+        <config>
+            <enabled>false</enabled>
+        </config>
+    </component>
+</components>
