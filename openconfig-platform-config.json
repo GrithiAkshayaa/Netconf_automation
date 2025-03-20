@@ -1,36 +1,76 @@
 {
-    "components": [
-        {
-            "name": "component1",
-            "config": {
-                "name": "component1"
-            },
-            "properties": [
-                {
-                    "name": "property1",
-                    "config": {
-                        "name": "property1",
-                        "value": "100"
-                    }
-                }
-            ],
-            "subcomponents": []
+  "components": {
+    "component": [
+      {
+        "name": "amplifier1",
+        "config": {
+          "name": "amplifier1"
         },
-        {
-            "name": "component2",
-            "config": {
-                "name": "component2"
+        "properties": {
+          "property": [
+            {
+              "name": "gain",
+              "config": {
+                "name": "gain",
+                "value": "20dB"
+              }
             },
-            "properties": [
-                {
-                    "name": "property2",
-                    "config": {
-                        "name": "property2",
-                        "value": "200"
-                    }
-                }
-            ],
-            "subcomponents": []
+            {
+              "name": "input_power",
+              "config": {
+                "name": "input_power",
+                "value": "-5dBm"
+              }
+            },
+            {
+              "name": "output_power",
+              "config": {
+                "name": "output_power",
+                "value": "15dBm"
+              }
+            }
+          ]
+        },
+        "subcomponents": {
+          "subcomponent": []
+        },
+        "power-supply": {
+          "config": {
+            "allocated-power": 50,
+            "used-power": 40
+          }
+        },
+        "chassis": {
+          "config": {}
+        },
+        "port": {
+          "config": {}
+        },
+        "fan": {
+          "config": {}
+        },
+        "fabric": {
+          "config": {}
+        },
+        "storage": {
+          "config": {}
+        },
+        "cpu": {
+          "config": {}
+        },
+        "integrated-circuit": {
+          "config": {}
+        },
+        "backplane": {
+          "config": {}
+        },
+        "software-module": {
+          "config": {}
+        },
+        "controller-card": {
+          "config": {}
         }
+      }
     ]
+  }
 }
