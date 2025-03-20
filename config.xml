@@ -1,14 +1,11 @@
-<components xmlns="http://openconfig.net/yang/platform">
-    <component>
-        <name>SLOT1</name>
-        <config>
-            <enabled>true</enabled>
-        </config>
-    </component>
-    <component>
-        <name>SLOT2</name>
-        <config>
-            <enabled>false</enabled>
-        </config>
-    </component>
-</components>
+<config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+    <components xmlns="http://openconfig.net/yang/platform">
+        <component>
+            <name>SLOT3</name>
+            <config>
+                <description>New Slot</description>
+                <id>3</id>
+            </config>
+        </component>
+    </components>
+</config>
