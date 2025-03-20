@@ -1,0 +1,18 @@
+{
+    "components": {
+        "component": [
+            {
+                "name": "SLOT1",
+                "config": {
+                    "enabled": true
+                }
+            },
+            {
+                "name": "SLOT2",
+                "config": {
+                    "enabled": false
+                }
+            }
+        ]
+    }
+}
