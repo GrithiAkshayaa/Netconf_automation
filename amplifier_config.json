@@ -1,0 +1,78 @@
+{
+    "components": {
+        "component": [
+            {
+                "name": "amplifier1",
+                "config": {
+                    "name": "amplifier1"
+                },
+                "shelf": {
+                    "name": "shelf1",
+                    "slot": {
+                        "name": "slot1",
+                        "ports": {
+                            "port": [
+                                {
+                                    "name": "sigin",
+                                    "config": {
+                                        "name": "sigin",
+                                        "status": "active"
+                                    }
+                                },
+                                {
+                                    "name": "sigout",
+                                    "config": {
+                                        "name": "sigout",
+                                        "status": "inactive"
+                                    }
+                                },
+                                {
+                                    "name": "linein",
+                                    "config": {
+                                        "name": "linein",
+                                        "status": "active"
+                                    }
+                                },
+                                {
+                                    "name": "lineout",
+                                    "config": {
+                                        "name": "lineout",
+                                        "status": "active"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "properties": {
+                    "property": [
+                        {
+                            "name": "gain",
+                            "config": {
+                                "name": "gain",
+                                "value": "20dB"
+                            }
+                        },
+                        {
+                            "name": "input_power",
+                            "config": {
+                                "name": "input_power",
+                                "value": "-5dBm"
+                            }
+                        },
+                        {
+                            "name": "output_power",
+                            "config": {
+                                "name": "output_power",
+                                "value": "15dBm"
+                            }
+                        }
+                    ]
+                },
+                "subcomponents": {
+                    "subcomponent": []
+                }
+            }
+        ]
+    }
+}
