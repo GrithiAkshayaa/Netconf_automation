@@ -1,0 +1,70 @@
+{
+  "components": {
+    "component": [
+      {
+        "name": "amplifier1",
+        "config": {
+          "name": "amplifier1"
+        },
+        "properties": {
+          "property": [
+            {
+              "name": "gain",
+              "config": {
+                "name": "gain",
+                "value": "15dB"
+              }
+            },
+            {
+              "name": "power",
+              "config": {
+                "name": "power",
+                "value": "20W"
+              }
+            }
+          ]
+        },
+        "location": {
+          "shelf": "Shelf1",
+          "slot": "Slot2",
+          "port": "Port3"
+        },
+        "subcomponents": {
+          "subcomponent": []
+        }
+      },
+      {
+        "name": "amplifier2",
+        "config": {
+          "name": "amplifier2"
+        },
+        "properties": {
+          "property": [
+            {
+              "name": "gain",
+              "config": {
+                "name": "gain",
+                "value": "12dB"
+              }
+            },
+            {
+              "name": "power",
+              "config": {
+                "name": "power",
+                "value": "18W"
+              }
+            }
+          ]
+        },
+        "location": {
+          "shelf": "Shelf2",
+          "slot": "Slot3",
+          "port": "Port1"
+        },
+        "subcomponents": {
+          "subcomponent": []
+        }
+      }
+    ]
+  }
+}
