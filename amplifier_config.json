@@ -1,78 +1,53 @@
 {
-    "components": {
-        "component": [
-            {
-                "name": "amplifier1",
-                "config": {
-                    "name": "amplifier1"
-                },
-                "shelf": {
-                    "name": "shelf1",
-                    "slot": {
-                        "name": "slot1",
-                        "ports": {
-                            "port": [
-                                {
-                                    "name": "sigin",
-                                    "config": {
-                                        "name": "sigin",
-                                        "status": "active"
-                                    }
-                                },
-                                {
-                                    "name": "sigout",
-                                    "config": {
-                                        "name": "sigout",
-                                        "status": "inactive"
-                                    }
-                                },
-                                {
-                                    "name": "linein",
-                                    "config": {
-                                        "name": "linein",
-                                        "status": "active"
-                                    }
-                                },
-                                {
-                                    "name": "lineout",
-                                    "config": {
-                                        "name": "lineout",
-                                        "status": "active"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                "properties": {
-                    "property": [
-                        {
-                            "name": "gain",
-                            "config": {
-                                "name": "gain",
-                                "value": "20dB"
-                            }
-                        },
-                        {
-                            "name": "input_power",
-                            "config": {
-                                "name": "input_power",
-                                "value": "-5dBm"
-                            }
-                        },
-                        {
-                            "name": "output_power",
-                            "config": {
-                                "name": "output_power",
-                                "value": "15dBm"
-                            }
-                        }
-                    ]
-                },
-                "subcomponents": {
-                    "subcomponent": []
-                }
+    "components": [
+        {
+            "name": "Amplifier1",
+            "property": {
+                "name": "type",
+                "value": "AMPLIFIER"
             }
-        ]
-    }
+        },
+        {
+            "name": "Shelf-1",
+            "property": {
+                "name": "slot",
+                "value": "1"
+            }
+        },
+        {
+            "name": "Slot-1",
+            "property": {
+                "name": "port-count",
+                "value": "4"
+            }
+        },
+        {
+            "name": "Port-1",
+            "property": {
+                "name": "port-type",
+                "value": "sigin"
+            }
+        },
+        {
+            "name": "Port-2",
+            "property": {
+                "name": "port-type",
+                "value": "sigout"
+            }
+        },
+        {
+            "name": "Port-3",
+            "property": {
+                "name": "port-type",
+                "value": "linein"
+            }
+        },
+        {
+            "name": "Port-4",
+            "property": {
+                "name": "port-type",
+                "value": "lineout"
+            }
+        }
+    ]
 }
