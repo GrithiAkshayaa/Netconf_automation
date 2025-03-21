@@ -2,43 +2,73 @@
   "components": {
     "component": [
       {
-        "name": "component1",
+        "name": "Amplifier1",
         "config": {
-          "name": "component1"
+          "name": "Amplifier1"
         },
         "properties": {
           "property": [
             {
-              "name": "property1",
+              "name": "gain",
               "config": {
-                "name": "property1",
-                "value": "100"
+                "name": "gain",
+                "value": "20dB"
+              }
+            },
+            {
+              "name": "power-level",
+              "config": {
+                "name": "power-level",
+                "value": "-5dBm"
               }
             }
           ]
         },
         "subcomponents": {
-          "subcomponent": []
-        }
-      },
-      {
-        "name": "component2",
-        "config": {
-          "name": "component2"
-        },
-        "properties": {
-          "property": [
+          "subcomponent": [
             {
-              "name": "property2",
+              "name": "Shelf1",
               "config": {
-                "name": "property2",
-                "value": "200"
+                "name": "Shelf1"
+              }
+            },
+            {
+              "name": "Slot1",
+              "config": {
+                "name": "Slot1"
+              }
+            },
+            {
+              "name": "Card1",
+              "config": {
+                "name": "Card1"
+              }
+            },
+            {
+              "name": "sigin",
+              "config": {
+                "name": "sigin"
+              }
+            },
+            {
+              "name": "sigout",
+              "config": {
+                "name": "sigout"
+              }
+            },
+            {
+              "name": "linein",
+              "config": {
+                "name": "linein"
+              }
+            },
+            {
+              "name": "lineout",
+              "config": {
+                "name": "lineout"
               }
             }
           ]
-        },
-        "subcomponents": {
-          "subcomponent": []
         }
       }
     ]
